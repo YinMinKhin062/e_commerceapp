@@ -6,6 +6,7 @@ import About from '../views/About.vue';
 import Contact from '../views/Contact.vue';
 import Cart from '../views/Cart.vue';
 import Account from '../views/Account.vue';
+import lostPassword from '../views/lostPassword.vue';
 
 const routes = [
 	{
@@ -39,9 +40,14 @@ const routes = [
 		component: Cart,
 	},
 	{
-		path: '/myaccount',
-		name: 'myaccount',
+		path: '/account',
+		name: 'account',
 		component: Account,
+	},
+	{
+		path: '/account/lostpassword',
+		name: 'lostpassword',
+		component: lostPassword,
 	},
 ];
 

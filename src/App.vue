@@ -26,6 +26,10 @@ export default {
 		let hideAuthBox = () => {
 			showModal.value = !showModal.value;
 		};
+
+		let getAuthValue=()=>{
+			
+		}
 		return { showModal, showAuthBox, hideAuthBox };
 	},
 };
